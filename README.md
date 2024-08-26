@@ -11,7 +11,7 @@
 
 ## Table of Contents
 
-1. [Abstract](#abstract)
+1. [Introduction](#introduction)
 2. [Dataset](#dataset)
    - [News Dataset](#news-dataset)
      - [Dataset Structure](#dataset-structure)
@@ -30,9 +30,9 @@
 5. [Contributing](#contributing)
 6. [License](#license)
 
-## Abstract
+## Introduction
 
-The electric vehicle (EV) battery supply chain is highly susceptible to global disruptions, necessitating advanced predictive analytics. We present **SHIELD** (Schema-based Hierarchical Induction for EV Supply Chain Disruption), a system that integrates **Large Language Models (LLMs)** with domain expertise for comprehensive risk assessment of the EV battery supply chain. SHIELD consists of three main components:
+The electric vehicle (EV) battery supply chain is highly susceptible to global disruptions, necessitating advanced predictive analytics. We introduce **SHIELD** (Schema-based Hierarchical Induction for EV Supply Chain Disruption), a robust system integrating **Large Language Models (LLMs)** with domain expertise for comprehensive risk assessment of the EV battery supply chain. SHIELD is composed of three main components:
 
 1. **LLM-Driven Schema Learning**: Constructs a comprehensive knowledge library by extracting and organizing domain-specific information.
 2. **Disruption Analysis System**: Utilizes fine-tuned language models for event extraction, multi-dimensional similarity matching for schema alignment, and Graph Convolutional Networks (GCNs) with logical constraints for predictive modeling.
@@ -153,16 +153,16 @@ These metrics provide a rigorous assessment of schema alignment, ensuring the le
 
 ## Citation
 
-If you find this repository or
-
- our paper useful, please consider **starring** this repository and **citing** our paper:
+If you find this repository or our paper useful, please consider **starring** this repository and **citing** our paper:
 
 ```bibtex
 @misc{cheng2024shieldllmdrivenschemainduction,
   title={SHIELD: LLM-Driven Schema Induction for Predictive Analytics in EV Battery Supply Chain Disruptions},
   author={Zhi-Qi Cheng and Yifei Dong and Aike Shi and Wei Liu and Yuzhi Hu and Jason O'Connor and Alexander Hauptmann and Kate Whitefoot},
   year={2024},
-  eprint={2408.05357},
+  e
+
+print={2408.05357},
   archivePrefix={arXiv},
   primaryClass={cs.AI},
   url={https://arxiv.org/abs/2408.05357},
@@ -184,3 +184,4 @@ This project is licensed under the MIT License. For more details, see the [LICEN
 - [Paper on arXiv](https://arxiv.org/pdf/2408.05357)
 - [Project Homepage](https://f1y1113.github.io/MFI/)
 - [Download Dataset](https://drive.google.com/drive/folders/12kH2S9Rr7ev_XejRZ3HNPhKfk01-dSEv?usp=sharing)
+
